@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      
+
+      
+      table{
+        font-family: arial, sans-serif;
+        border-collapse: collapse;
+        width : 100%;
+      }
+      
+        td,
+        th {
+            
+          border: 1px solid #dddddd;
+          text-align: left;
+          padding: 8px;
+        }
+        .alignofth{
+            background-color: grey;
+        }
+
+        .th-align {
+            background-color: lightgrey;
+          text-align: right;
+        }
+        .td-align {
+          text-align: right;
+        }
+        .colorofloss {
+          color: red;
+        }
+        .colorofprofit {
+          color: lightgreen;
+        }
+        .td-color {
+          color: #0066b2;
+        }
+
+        .footer-align {
+          text-align: center;
+          color: #0066b2;
+          font-size: 20px;
+          margin-top: 10px;
+          margin-bottom: 15px;
+        }
+      
+    </style>
+  </head>
+  <body style= "border:#0066b2; border-width:5px; border-style:solid;">
+    <div class="container">
+        
+      <table>
+        <tr>
+           
+          <th class="alignofth"><b>Account</b></th>
+          <th class="th-align">
+            <b><span style= color:#0066b2> ^</span>   Available Cash</b>
+            <br />
+            Today's Change
+          </th>
+        </tr>
+        <tr>
+          <td class="td-color"><b>IRA - 5200</b></td>
+          <td class="td-align">
+            $5763.36<br />
+            <div class="colorofloss">-0.08% / $8916.69</div>
+          </td>
+        </tr>
+        <tr>
+          <td class="td-color"><b>AAA - 1812</b></td>
+          <td class="td-align">
+            $2,010,926.10<br />
+            <div class="colorofprofit">+0.21% / $38,881.62</div>
+          </td>
+        </tr>
+        <tr>
+          <td class="td-color"><b>AAA - 3810</b></td>
+          <td class="td-align">
+            $2,010,926.10<br />
+            <div class="colorofprofit">+0.07% / $8916.69</div>
+          </td>
+        </tr>
+      </table>
+      <footer class="footer-align">Load more</footer>
+    </div>
+  </body>
+</html>
